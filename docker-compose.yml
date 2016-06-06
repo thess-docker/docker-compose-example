@@ -13,6 +13,6 @@ redis:
 nginx:
   build: nginx
   ports:
-    - "80:80"
+    - "8099:80"
   links:
     - haproxy
